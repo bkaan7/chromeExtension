@@ -14,16 +14,6 @@ Bu Google Chrome eklentisi, belediye personelinin EBYS (Elektronik Belge Yöneti
 
 ---
 
-## 📂 Proje Yapısı
-
-Proje, Google Chrome **Manifest V3** standartlarına tamamen uyumlu ve sunucu bağımsız (Sıfır Bakım Maliyetli) olarak geliştirilmiştir:
-
-```text
-├── manifest.json       # Eklenti izinleri ve tarayıcı yapılandırması
-├── popup.html          # Modern CSS3 ve HTML5 arayüzü
-├── popup.js            # Port tarama ve önbellek temizleme lojikleri
-└── icon.png            # Kurumsal logo / Eklenti ikonu
-
 🛠️ Kurulum ve Canlıya Alma
 1. Geliştirici Modu ile Manuel Kurulum (Test İçin)
 	1.	Bu depoyu (repository) bilgisayarınıza indirin veya clone'layın.
@@ -42,3 +32,14 @@ Eklentiyi belediye bünyesindeki tüm bilgisayarlara merkezden tek tıkla dağı
 •	Hiçbir uzak sunucuya veri göndermez, kullanıcı verilerini işlemez veya dışarıya sızdırmaz.
 •	Masaüstü uygulamalarının kilitlenmesini önlemek adına harici script (.bat vb.) tetiklemez; tamamen Chrome Sandbox güvencesi altındadır.
 💡 Serdivan Belediyesi Bilgi İşlem Müdürlüğü tarafından kurumsal verimliliği artırmak adına açık kaynak vizyonuyla geliştirilmiştir.
+
+## 📂 Proje Yapısı
+
+Proje, Google Chrome **Manifest V3** standartlarına tamamen uyumlu ve sunucu bağımsız (Sıfır Bakım Maliyetli) olarak geliştirilmiştir:
+
+```text
+├── manifest.json       # Eklenti izinleri ve tarayıcı yapılandırması
+├── popup.html          # Modern CSS3 ve HTML5 arayüzü
+├── popup.js            # Port tarama ve önbellek temizleme lojikleri
+└── icon.png            # Kurumsal logo / Eklenti ikonu
+
