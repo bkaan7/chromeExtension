@@ -1,10 +1,10 @@
-# 🛡️ Serdivan Belediyesi E-İmza Yardımcısı (Chrome Extension)
+# Serdivan Belediyesi E-İmza Yardımcısı (Chrome Extension)
 
 Bu Google Chrome eklentisi, belediye personelinin EBYS (Elektronik Belge Yönetim Sistemi) ve Bakanlık kurumsal sistemlerinde yaşadığı e-imza entegrasyon sorunlarını en aza indirmek, yerel servislerin durumunu anlık izlemek ve teknik aksaklıkları kendi kendilerine çözebilmelerini sağlamak amacıyla **Serdivan Belediyesi Bilgi İşlem Müdürlüğü** tarafından geliştirilmiştir.
 
 ---
 
-## 🚀 Özellikler
+## Özellikler
 
 * **Anlık Port ve Servis Taraması:** `ArkSigner` ve `IBSigner` (Bakanlık İstemcisi) servislerinin yerel portlarını (`8443`, `8080`, `9595`) arka planda tarayarak aktiflik durumlarını raporlar.
 * **Sürücü Altyapı Kontrolü (AKİA):** İmza motorlarının ve akıllı kart kitaplıklarının (DLL) işletim sistemi üzerindeki hazır bulunma durumunu mantıksal olarak analiz eder.
@@ -14,7 +14,7 @@ Bu Google Chrome eklentisi, belediye personelinin EBYS (Elektronik Belge Yöneti
 
 ---
 
-🛠️ Kurulum ve Canlıya Alma
+Kurulum ve Canlıya Alma
 1. Geliştirici Modu ile Manuel Kurulum (Test İçin)
 	1.	Bu depoyu (repository) bilgisayarınıza indirin veya clone'layın.
 	2.	Google Chrome'u açın ve adres çubuğuna chrome://extensions/ yazın.
@@ -27,13 +27,14 @@ Eklentiyi belediye bünyesindeki tüm bilgisayarlara merkezden tek tıkla dağı
 	2.	Windows Server üzerinde Group Policy Management panelini açın.
 	3.	User Configuration -> Policies -> Administrative Templates -> Google -> Google Chrome -> Extensions yolunu takip edin.
 	4.	"Configure the list of force-installed apps and extensions" politikasını aktif ederek eklenti kimliğini (ID) ve güncelleme URL'sini ekleyin.
-🛡️ Güvenlik ve Gizlilik Politikası
+	
+	Güvenlik ve Gizlilik Politikası
 •	Bu eklenti tamamen istemci taraflı (client-side) çalışır.
 •	Hiçbir uzak sunucuya veri göndermez, kullanıcı verilerini işlemez veya dışarıya sızdırmaz.
 •	Masaüstü uygulamalarının kilitlenmesini önlemek adına harici script (.bat vb.) tetiklemez; tamamen Chrome Sandbox güvencesi altındadır.
-💡 Serdivan Belediyesi Bilgi İşlem Müdürlüğü tarafından kurumsal verimliliği artırmak adına açık kaynak vizyonuyla geliştirilmiştir.
+Serdivan Belediyesi Bilgi İşlem Müdürlüğü tarafından kurumsal verimliliği artırmak adına açık kaynak vizyonuyla geliştirilmiştir.
 
-## 📂 Proje Yapısı
+## Proje Yapısı
 
 Proje, Google Chrome **Manifest V3** standartlarına tamamen uyumlu ve sunucu bağımsız (Sıfır Bakım Maliyetli) olarak geliştirilmiştir:
 
